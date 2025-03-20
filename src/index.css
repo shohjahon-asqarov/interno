@@ -1,10 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 html {
   font-family: "DM Serif Display", serif !important;
 }
 
+p, a  {
+  font-family: serif
+}
+
+.jost {
+  font-family: "Jost", sans-serif !important;
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 27px;
+  color: #4D5053;
+}
+.pad {
+  padding: 49px 35px 0;
+}
+.padd {
+  padding: 25px 35px 45px;
+}
 @import "tailwindcss";
 
 @theme {
@@ -23,6 +41,24 @@ html {
   padding-inline: 20px;
 }
 
+.room {
+  background-image: url('../src/assets/images/room.png');
+  background-size: cover;
+  background-position: center;
+  padding: 200px;
+  height: 100vh;
+
+}
+
+
+.bag-color{
+  background-color: #F4F0EC;
+  background-size: cover;
+}
+.bag-white{
+  background-color: #FFFFFF;
+  background-size: cover;
+}
 .fontJost {
   font-family: "Jost", sans-serif !important;
 }
