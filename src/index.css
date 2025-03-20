@@ -25,6 +25,16 @@ p, a  {
 }
 @import "tailwindcss";
 
+@theme {
+  --color-gray: #4D5053;
+  --color-b-col: #E7E7E7;
+  --color-dark: #292F36;
+  --color-date-col: #4D5053;
+  --color-btn: #F4F0EC;
+  --color-btn2: #CDA274;
+  --color-line: #E5E5E5;
+}
+
 .container {
   max-width: 1240px;
   margin: 0 auto;
@@ -48,4 +58,21 @@ p, a  {
 .bag-white{
   background-color: #FFFFFF;
   background-size: cover;
+}
+.fontJost {
+  font-family: "Jost", sans-serif !important;
+}
+
+.radius {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.Jost {
+  font-family: "Jost", sans-serif;
 }
