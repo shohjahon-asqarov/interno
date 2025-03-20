@@ -13,6 +13,8 @@ html {
   --color-dark: #292F36;
   --color-date-col: #4D5053;
   --color-btn: #F4F0EC;
+  --color-btn2: #CDA274;
+  --color-line: #E5E5E5;
 }
 
 .container {
@@ -23,4 +25,14 @@ html {
 
 .fontJost {
   font-family: "Jost", sans-serif !important;
+}
+
+.radius {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+button {
+  cursor: pointer;
 }

@@ -61,8 +61,11 @@ const RecentBlogs = () => {
             </div>
             <div className='container grid grid-cols-3 space-x-5 space-y-10'>
                 {blogs.map((card) => (
-                    <div key={card.id} className='border-1 border-b-col rounded-[62px] flex flex-col items-center w-96 h-129'>
-                        <img className='w-86 h-74 mt-5.5 mb-4' src={card.img} alt={card.title} />
+                    <div key={card.id} className='border-1 border-b-col rounded-[62px] flex flex-col items-center w-96 h-129 mb-35'>
+                        <div className='relative text-center'>
+                            <img className='w-86 h-74 mt-5.5 mb-4' src={card.img} alt={card.title} />
+                            <div className='text-date-col fontJost text-base bg-[#FFFFFF] absolute left-6 bottom-7 px-2.5 py-2.5 radius'>{card.type}</div>
+                        </div>
                         <h2 className='w-83.5 font-normal text-[25px] text-dark mb-3'>{card.title}</h2>
                         <div className='flex items-center justify-between w-83.5'>
                             <p className='text-base fontJost text-date-col'>{card.date}</p>
