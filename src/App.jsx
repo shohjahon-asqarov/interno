@@ -4,14 +4,14 @@ import Hero from './components/Hero'
 
 const App = () => {
   return (
-    <div>
+    <>
       <Header/>
       <main>
         <Hero/>
       </main>
 
       
-    </div>
+    </>
   )
 }
 
