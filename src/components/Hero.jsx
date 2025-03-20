@@ -16,8 +16,7 @@ const Hero = () => {
       challenges into greater opportunities.
       </p>
       <button className='bg-[#292F36] p-3 h-12 w-48 text-center   rounded-xl flex gap-3 mt-10 text-white'>
-                    Get Started     
-               
+                    Get Started
                 </button>
      </div>
     </div>
