@@ -1,8 +1,11 @@
 import React from 'react'
+import RecentProjects from './Components/RecentProjects'
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+    <RecentProjects/>
+    </>
   )
 }
 
