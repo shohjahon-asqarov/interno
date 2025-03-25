@@ -4,6 +4,8 @@ import Hero from './components/Hero'
 import Design from './components/Design'
 import About from './components/About'
 
+
+
 const App = () => {
   return (
     <>
