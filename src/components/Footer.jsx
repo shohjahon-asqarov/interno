@@ -6,7 +6,7 @@ import instagram from '../assets/icons/instagram.svg'
 const Footer = () => {
     return (
         <footer>
-            <div className="container flex space-x-4 items-center justify-center">
+            <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
                 <div className='w-[350px] h-[374px]'>
                     <img src={logo} alt="" />
                     <p className='fontJost text-[22px] text-date-col mt-4 mb-2.5'>We are the leading architect and interior design firm in the world.</p>
@@ -17,8 +17,8 @@ const Footer = () => {
                         <img src={instagram} alt="" />
                     </div>
                 </div>
-                <div className="w-[210px] h-[374px]">
-                    <p className='font-normal text-2xl text-dark'>Pages</p>
+                <div className="w-[210px] h-[374px] ml-8">
+                    <p className='font-normal text-2xl text-dark mb-5'>Pages</p>
                     <div className="space-y-7.5">
                         <p className='fontJost text-[22px] text-date-col'>Style Guide </p>
                         <p className='fontJost text-[22px] text-date-col'>Protected</p>
@@ -28,7 +28,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="w-[210px] h-[374px]">
-                    <p className='font-normal text-2xl text-dark'>Explore</p>
+                    <p className='font-normal text-2xl text-dark mb-5'>Explore</p>
                     <div className="space-y-7.5">
                         <p className='fontJost text-[22px] text-date-col'>About Us</p>
                         <p className='fontJost text-[22px] text-date-col'>Recent Blog</p>
@@ -38,7 +38,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="w-[310px] h-[374px]">
-                    <p className='font-normal text-2xl text-dark'>Contact</p>
+                    <p className='font-normal text-2xl text-dark mb-5'>Contact</p>
                     <div className="space-y-7.5">
                         <p className='fontJost text-[22px] text-date-col'>53, East Birchwood Ave. Brooklyn, New York 11201, USA.</p>
                         <p className='fontJost text-[22px] text-date-col'>contact@interno.com</p>

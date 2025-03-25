@@ -59,7 +59,7 @@ const RecentBlogs = () => {
                 <p className='fontJost text-xl text-gray text-center mb-17.5'>Get updates about our latest trends and techniques used in <br />
                     interior design project works.</p>
             </div>
-            <div className='container grid grid-cols-3 space-x-5 space-y-10'>
+            <div className='container grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                 {blogs.map((card) => (
                     <div key={card.id} className='border-1 border-b-col rounded-[62px] flex flex-col items-center w-96 h-129'>
                         <div className='relative text-center'>
